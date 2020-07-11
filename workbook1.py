@@ -1,1 +1,2 @@
-print(list(range(2, 14, 4)))
+mylist = ['a', 'b', 'c', 'd', 'e', 'f']
+print(mylist[2:5])
