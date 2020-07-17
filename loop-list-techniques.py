@@ -6,7 +6,7 @@ def delete_starting_evens(lst):
 
 
 
-print(delete_starting_evens([4, 8, 10, 11, 12, 15]))
+#print(delete_starting_evens([4, 8, 10, 11, 12, 15]))
 #print(delete_starting_evens([4, 8, 10]))
 
 # returning numbers in a list with odd indices
@@ -14,7 +14,7 @@ def odd_indices(lst):
     new_lst = lst[1::2]
     return new_lst
 
-print(odd_indices([4, 3, 7, 10, 11, -2]))
+#print(odd_indices([4, 3, 7, 10, 11, -2]))
 
 
 # return largest number in list without max()
@@ -26,7 +26,7 @@ def max_num(nums):
     return max
 
 
-print(max_num([50, -10, 0, 75, 20]))
+#print(max_num([50, -10, 0, 75, 20]))
 
 
 
