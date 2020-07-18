@@ -1,15 +1,21 @@
-# two ways of checking lists back to front and front to back
-def reversed_list(lst1, lst2):
-    #return lst1[0:] == lst2[::-1]
-    for index in range(len(lst1)):
-        if lst1[index] != lst2[len(lst2) - 1 - index]:
-            return False
+# Write your max_num function here:
+def max_num(num1, num2, num3):
+    if num1 > num2 and num1 > num3:
+        return num1
+    elif num2 > num1 and num2 > num3:
+        return num2
+    elif num3 > num1 and num3 > num2:
+        return num3
     else:
-        return True
+        return "It's a tie!"
 
 
-
-
-#Uncomment the lines below when your function is done
-print(reversed_list([1, 5, 3], [3, 2, 1]))
-print(reversed_list([1, 2, 3], [3, 2, 1]))
+# Uncomment these function calls to test your max_num function:
+print(max_num(-10, 0, 10))
+# should print 10
+print(max_num(-10, 5, -30))
+# should print 5
+print(max_num(-5, -10, -10))
+# should print -5
+print(max_num(2, 3, 3))
+# should print "It's a tie!"
