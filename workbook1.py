@@ -1,2 +1,4 @@
-mylist = ['a', 'b', 'c', 'd', 'e']
-print(mylist[-1])
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
