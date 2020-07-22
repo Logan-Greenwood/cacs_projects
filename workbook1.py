@@ -1,4 +1,4 @@
-i = 1
-while i <= 10:
-    print(i)
-    i += 1
+destinations = ["Paris, France", "Shanghai, China", "Los Angeles, USA",
+                "São Paulo, Brazil", "Cairo, Egypt"]
+test_traveler = ['Erin Wilkes', 'Shanghai, China', ['historical site', 'art']]
+print(test_traveler[2])
