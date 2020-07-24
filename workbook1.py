@@ -1,4 +1,3 @@
-destinations = ["Paris, France", "Shanghai, China", "Los Angeles, USA",
-                "São Paulo, Brazil", "Cairo, Egypt"]
-test_traveler = ['Erin Wilkes', 'Shanghai, China', ['historical site', 'art']]
-print(test_traveler[2])
+dirty_harry = "Go ahead, make my day."
+split_hairs = dirty_harry.split("a")
+print(split_hairs)
