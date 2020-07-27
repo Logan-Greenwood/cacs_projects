@@ -1,3 +1,7 @@
-dirty_harry = "Go ahead, make my day."
-split_hairs = dirty_harry.split("a")
-print(split_hairs)
+test = "testing testing 123, 123"
+
+for word in test:
+    i = 0
+    if word == "testing":
+        i += 1
+        print(i)
