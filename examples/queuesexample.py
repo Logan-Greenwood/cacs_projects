@@ -83,7 +83,7 @@ deli_line.enqueue("blueberry muffin toasted with butter")
 deli_line.enqueue("bacon, egg, and cheese on a roll")
 # ------------------------ #
 # Uncomment the line below:
-# deli_line.enqueue("western omelet with home fries")
+deli_line.enqueue("western omelet with home fries")
 # ------------------------ #
 print("------------\nOur first order will be " + deli_line.peek())
 print("------------\nNow serving...\n------------")
